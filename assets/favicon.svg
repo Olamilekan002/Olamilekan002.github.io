@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg { fill: #2f3c98; } .ring { fill: none; stroke: #fbf8f3; } .dot { fill: #e6c06e; }
+    @media (prefers-color-scheme: dark) { .bg { fill: #a7b2ff; } .ring { stroke: #0e1120; } }
+  </style>
+  <rect class="bg" x="4" y="4" width="56" height="56" rx="14"/>
+  <path class="ring" stroke-width="6" d="M32 13 L51 32 L32 51 L13 32 Z"/>
+  <circle class="dot" cx="32" cy="32" r="5"/>
+</svg>

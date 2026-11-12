@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olamilekan Omotosho</title>
+<meta name="description" content="Olamilekan Omotosho is an AI researcher and engineer who builds and evaluates LLM agents, works on language technology for African languages, and is applying for PhD programmes starting in 2027.">
+<meta name="color-scheme" content="light dark">
+<meta name="author" content="Olamilekan Omotosho">
+<meta name="theme-color" content="#fbf8f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1120" media="(prefers-color-scheme: dark)">
+<!-- Site address: change https://olamilekan002.github.io/ below if the site is hosted elsewhere. -->
+<link rel="canonical" href="https://olamilekan002.github.io/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<!-- Link previews (LinkedIn, WhatsApp, Facebook, Slack) -->
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Olamilekan Omotosho">
+<meta property="og:title" content="Olamilekan Omotosho, AI researcher and engineer">
+<meta property="og:description" content="I build and evaluate LLM agents, work on language technology for African languages, and am applying for PhD programmes in multi-agent reasoning starting in 2027.">
+<meta property="og:url" content="https://olamilekan002.github.io/">
+<meta property="og:image" content="https://olamilekan002.github.io/assets/social-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Portrait of Olamilekan Omotosho with his name, roles and research interests">
+<meta property="profile:first_name" content="Olamilekan">
+<meta property="profile:last_name" content="Omotosho">
+<!-- Link previews (X / Twitter) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Olamilekan Omotosho, AI researcher and engineer">
+<meta name="twitter:description" content="LLM agents, evaluation and African-language NLP. PhD applicant for 2027 in multi-agent reasoning.">
+<meta name="twitter:image" content="https://olamilekan002.github.io/assets/social-card.jpg">
+
+<!-- Structured data, so search engines can show name, roles and education correctly -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Olamilekan Matthew Omotosho",
+  "url": "https://olamilekan002.github.io/",
+  "image": "https://olamilekan002.github.io/assets/profile.jpg",
+  "jobTitle": "AI Researcher and Engineer",
+  "worksFor": [
+    { "@type": "Organization", "name": "Codematic" },
+    { "@type": "Organization", "name": "Turing" }
+  ],
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Federal University of Technology, Akure" },
+    { "@type": "CollegeOrUniversity", "name": "Nexford University" }
+  ],
+  "homeLocation": { "@type": "Place", "name": "Nigeria" },
+  "knowsAbout": ["Large language models", "LLM agents", "LLM evaluation", "Multi-agent systems", "Epistemic planning", "Natural language processing for African languages", "Machine learning"],
+  "sameAs": [
+    "https://github.com/Olamilekan002",
+    "https://linkedin.com/in/olamilekan-omotosho"
+  ]
+}
+</script>
+<script>
+  /* Apply a saved theme before first paint so the page never flashes the wrong colours. */
+  (function () {
+    try {
+      var saved = localStorage.getItem("theme");
+      if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+    } catch (e) { /* storage blocked: fall back to the system setting */ }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ---------- Theme tokens: adire indigo by day, indigo night after dark ---------- */
+  :root {
+    --bg: #fbf8f3;
+    --surface: #ffffff;
+    --surface-2: #f4f0e8;
+    --ink: #1b2030;
+    --muted: #5a6072;
+    --line: #e6dfd3;
+    --accent: #2f3c98;
+    --accent-soft: #e8eaf7;
+    --garnet: #9a2a3a;
+    --garnet-soft: #f6e6e8;
+    --gold: #a8741a;
+    --shadow: 0 1px 2px rgba(27, 32, 48, .06), 0 8px 24px rgba(27, 32, 48, .06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1120;
+      --surface: #151a2d;
+      --surface-2: #1b2137;
+      --ink: #ebe7df;
+      --muted: #a2a8bb;
+      --line: #272d47;
+      --accent: #a7b2ff;
+      --accent-soft: #20274a;
+      --garnet: #f19aa6;
+      --garnet-soft: #3a1e2a;
+      --gold: #e6c06e;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1120;
+    --surface: #151a2d;
+    --surface-2: #1b2137;
+    --ink: #ebe7df;
+    --muted: #a2a8bb;
+    --line: #272d47;
+    --accent: #a7b2ff;
+    --accent-soft: #20274a;
+    --garnet: #f19aa6;
+    --garnet-soft: #3a1e2a;
+    --gold: #e6c06e;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+  }
+
+  /* ---------- Base ---------- */
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16.5px/1.65 "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    transition: background-color .25s ease, color .25s ease;
+    overflow-x: hidden;
+  }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { color: var(--garnet); }
+  h1, h2, h3 { font-family: "Fraunces", "Iowan Old Style", Georgia, serif; font-weight: 600; line-height: 1.2; margin: 0; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* Adire-inspired band: a stitched-diamond motif painted in the accent colour */
+  .motif {
+    height: 12px; background: var(--accent); opacity: .5;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='12'%3E%3Cpath d='M0 6 L6 0 L12 6 L6 12 Z M12 6 L18 0 L24 6 L18 12 Z' fill='none' stroke='black' stroke-width='1.3'/%3E%3Ccircle cx='12' cy='6' r='1.4'/%3E%3C/svg%3E") repeat-x center / 24px 12px;
+            mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='12'%3E%3Cpath d='M0 6 L6 0 L12 6 L6 12 Z M12 6 L18 0 L24 6 L18 12 Z' fill='none' stroke='black' stroke-width='1.3'/%3E%3Ccircle cx='12' cy='6' r='1.4'/%3E%3C/svg%3E") repeat-x center / 24px 12px;
+  }
+
+  /* ---------- Top bar ---------- */
+  .topbar {
+    position: sticky; top: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar .wrap { display: flex; align-items: center; gap: 16px; height: 60px; }
+  .brand { font-family: "Fraunces", Georgia, serif; font-weight: 700; font-size: 18px; color: var(--ink); text-decoration: none; white-space: nowrap; }
+  .brand span { color: var(--garnet); }
+  .nav { display: flex; gap: 4px; margin-left: auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { color: var(--muted); text-decoration: none; font-size: 14.5px; font-weight: 500; padding: 6px 10px; border-radius: 8px; white-space: nowrap; }
+  .nav a:hover { color: var(--ink); background: var(--surface-2); }
+  .theme-toggle {
+    flex: none; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink); cursor: pointer; display: grid; place-items: center;
+  }
+  .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+  .theme-toggle svg { width: 18px; height: 18px; }
+  .theme-toggle .moon { display: none; }
+  :root[data-theme="dark"] .theme-toggle .sun { display: none; }
+  :root[data-theme="dark"] .theme-toggle .moon { display: block; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .theme-toggle .sun { display: none; }
+    :root:not([data-theme="light"]) .theme-toggle .moon { display: block; }
+  }
+
+  /* ---------- About ---------- */
+  .about { display: grid; grid-template-columns: 300px 1fr; gap: 48px; padding: 56px 0 24px; }
+  .about > *, .two-col > *, .focus > *, .split > * { min-width: 0; }
+  .profile { text-align: center; position: sticky; top: 84px; align-self: start; }
+  .portrait {
+    width: 200px; height: 200px; margin: 0 auto 18px; border-radius: 50%; padding: 5px;
+    background: conic-gradient(from 210deg, var(--accent), var(--garnet), var(--gold), var(--accent));
+  }
+  .portrait img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; border: 4px solid var(--bg); }
+  .profile h1 { font-size: 26px; }
+  .profile .role { color: var(--muted); font-size: 15px; margin: 8px 0 2px; line-height: 1.45; }
+  .profile .role b { color: var(--ink); font-weight: 600; }
+  .profile .place { color: var(--muted); font-size: 14px; }
+  .icons { display: flex; justify-content: center; gap: 8px; margin: 18px 0 16px; }
+  .icons a {
+    width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center;
+    color: var(--muted); background: var(--surface); border: 1px solid var(--line);
+  }
+  .icons a:hover { color: var(--accent); border-color: var(--accent); }
+  .icons svg { width: 18px; height: 18px; }
+  .cv-btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 9px 18px; border-radius: 999px;
+    background: var(--accent); color: var(--bg); font-weight: 600; font-size: 14.5px; text-decoration: none;
+  }
+  .cv-btn:hover { color: var(--bg); background: var(--garnet); }
+
+  .bio h2 { font-size: 30px; margin-bottom: 14px; }
+  .bio p { margin: 0 0 14px; }
+  .callout {
+    display: flex; gap: 12px; align-items: flex-start; margin: 20px 0 26px; padding: 14px 16px;
+    background: var(--garnet-soft); border-left: 4px solid var(--garnet); border-radius: 10px; font-size: 15.5px;
+  }
+  .callout svg { flex: none; width: 20px; height: 20px; color: var(--garnet); margin-top: 3px; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .mini-h { font-family: "Inter", sans-serif; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--garnet); margin: 0 0 12px; }
+  .interests { list-style: none; margin: 0; padding: 0; }
+  .interests li { padding-left: 22px; position: relative; margin-bottom: 6px; font-size: 15.5px; }
+  .interests li::before { content: ""; position: absolute; left: 2px; top: .62em; width: 8px; height: 8px; transform: rotate(45deg); border: 1.5px solid var(--accent); }
+  .edu { list-style: none; margin: 0; padding: 0; }
+  .edu li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; margin-bottom: 12px; font-size: 15px; line-height: 1.45; }
+  .edu svg { width: 18px; height: 18px; color: var(--accent); margin-top: 2px; }
+  .edu b { display: block; font-weight: 600; }
+  .edu span { color: var(--muted); }
+
+  /* ---------- Sections ---------- */
+  section.block { padding: 52px 0 8px; }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 22px; }
+  .sec-head h2 { font-size: 28px; }
+  .sec-head::after { content: ""; flex: 1; height: 1px; background: var(--line); transform: translateY(-6px); }
+
+  .focus { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .focus article {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px;
+    box-shadow: var(--shadow); position: relative; overflow: hidden;
+  }
+  .focus article::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--accent); }
+  .focus article.next::before { background: var(--garnet); }
+  .focus h3 { font-size: 19px; margin-bottom: 6px; }
+  .focus p { margin: 0; color: var(--muted); font-size: 15.5px; }
+  .pill { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .04em; padding: 2px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin-bottom: 10px; }
+  .next .pill { background: var(--garnet-soft); color: var(--garnet); }
+
+  /* News */
+  .news { list-style: none; margin: 0; padding: 0; }
+  .news li { display: grid; grid-template-columns: 96px 1fr; gap: 18px; padding: 11px 0; border-bottom: 1px dashed var(--line); }
+  .news time { font-weight: 600; font-size: 14px; color: var(--garnet); padding-top: 2px; font-variant-numeric: tabular-nums; }
+  details.more > summary {
+    cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 6px;
+    margin-top: 14px; color: var(--accent); font-weight: 600; font-size: 14.5px;
+  }
+  details.more > summary::-webkit-details-marker { display: none; }
+  details.more > summary::before { content: "+"; font-size: 18px; line-height: 1; }
+  details.more[open] > summary::before { content: "\2212"; }
+  details.more[open] > summary .closed, details.more:not([open]) > summary .open { display: none; }
+
+  /* Publications */
+  .pubs { list-style: none; margin: 0; padding: 0; }
+  .pubs li { display: grid; grid-template-columns: 112px 1fr; gap: 18px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .badge { align-self: start; text-align: center; white-space: nowrap; font-size: 12px; font-weight: 600; letter-spacing: .04em; padding: 4px 6px; border-radius: 6px; border: 1px solid var(--accent); color: var(--accent); }
+  .badge.wip { border-color: var(--gold); color: var(--gold); }
+  .pubs .title { font-weight: 600; display: block; margin-bottom: 2px; }
+  .pubs .authors, .pubs .venue { font-size: 15px; color: var(--muted); display: block; }
+  .pubs .venue { font-style: italic; }
+  .pubs .authors b { color: var(--ink); }
+
+  /* Experience timeline */
+  .group-h { font-family: "Fraunces", Georgia, serif; font-size: 19px; margin: 6px 0 14px; color: var(--muted); font-weight: 600; }
+  .timeline { list-style: none; margin: 0 0 30px; padding: 0 0 0 22px; border-left: 2px solid var(--line); }
+  .timeline > li { position: relative; padding: 0 0 22px 6px; }
+  .timeline > li::before {
+    content: ""; position: absolute; left: -30px; top: 6px; width: 12px; height: 12px; border-radius: 3px;
+    transform: rotate(45deg); background: var(--bg); border: 2px solid var(--accent);
+  }
+  .timeline > li.current::before { background: var(--accent); }
+  .job-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 16px; }
+  .job-top h3 { font-size: 18px; }
+  .job-top .when { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .org { color: var(--garnet); font-weight: 500; font-size: 15px; }
+  .timeline ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); font-size: 15.5px; }
+  .timeline ul li { margin-bottom: 4px; }
+  .timeline ul li::marker { color: var(--accent); }
+
+  /* Projects */
+  .projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .project {
+    display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 20px; box-shadow: var(--shadow); transition: transform .15s ease, border-color .15s ease;
+  }
+  .project:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .project .ctx { font-size: 12.5px; font-weight: 600; color: var(--garnet); letter-spacing: .03em; margin-bottom: 6px; }
+  .project h3 { font-size: 18px; margin-bottom: 8px; }
+  .project p { margin: 0 0 12px; color: var(--muted); font-size: 15px; }
+  .project .result { color: var(--ink); font-weight: 600; }
+  .stack { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 4px; }
+  .stack span { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--surface-2); color: var(--muted); }
+  .project .go { margin-top: 12px; font-weight: 600; font-size: 14.5px; }
+
+  /* Lists for awards / service */
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; }
+  .ticks { list-style: none; margin: 0; padding: 0; }
+  .ticks li { display: grid; grid-template-columns: 54px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px dashed var(--line); font-size: 15.5px; }
+  .ticks .yr { color: var(--gold); font-weight: 600; font-size: 14px; font-variant-numeric: tabular-nums; padding-top: 1px; }
+
+  /* Skills */
+  .skills { display: grid; grid-template-columns: 220px 1fr; gap: 10px 24px; margin: 0; }
+  .skills dt { font-weight: 600; font-size: 15px; }
+  .skills dd { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 13.5px; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); }
+  .certs { columns: 2; column-gap: 32px; margin: 14px 0 0; padding-left: 18px; color: var(--muted); font-size: 15px; }
+  .certs li { break-inside: avoid; margin-bottom: 6px; }
+  .certs li::marker { color: var(--accent); }
+
+  /* Footer */
+  footer { margin-top: 64px; border-top: 1px solid var(--line); background: var(--surface-2); }
+  footer .wrap { padding-top: 32px; padding-bottom: 40px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px; }
+  footer h2 { font-size: 24px; margin-bottom: 10px; }
+  footer p { margin: 0 0 8px; color: var(--muted); }
+  footer .small { font-size: 13.5px; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px) {
+    .about { grid-template-columns: 1fr; gap: 28px; padding-top: 36px; }
+    .profile { position: static; }
+    .focus, .split, footer .wrap { grid-template-columns: 1fr; }
+    .skills { grid-template-columns: 1fr; gap: 4px; }
+    .skills dd { margin-bottom: 12px; }
+  }
+  @media (max-width: 560px) {
+    .brand { font-size: 16px; }
+    .nav a { padding: 6px 7px; font-size: 13.5px; }
+    .two-col { grid-template-columns: 1fr; }
+    .news li, .pubs li { grid-template-columns: 1fr; gap: 4px; }
+    .badge { justify-self: start; }
+    .certs { columns: 1; }
+    .bio h2 { font-size: 26px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="motif" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top">Olamilekan<span>.</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#research">Research</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#service">Service</a>
+    </nav>
+    <button class="theme-toggle" type="button" id="themeToggle" aria-label="Switch to dark theme">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <!-- ===================== About ===================== -->
+  <section class="about" aria-labelledby="bio-h">
+    <aside class="profile">
+      <div class="portrait"><img src="assets/profile.jpg" alt="Portrait of Olamilekan Omotosho" width="480" height="480"></div>
+      <h1>Olamilekan Matthew Omotosho</h1>
+      <p class="role"><b>Senior AI Engineer</b>, Codematic<br><b>Pod Lead &amp; Senior Data Scientist</b>, Turing</p>
+      <p class="place">Nigeria</p>
+      <div class="icons">
+        <a class="js-email" data-icon href="#contact" data-u="omotoshomatthew73" data-d="gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </a>
+        <a href="https://github.com/Olamilekan002" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/olamilekan-omotosho" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        </a>
+      </div>
+      <a class="cv-btn" href="assets/Olamilekan-Omotosho-CV.pdf">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+        Download CV
+      </a>
+    </aside>
+
+    <div class="bio">
+      <h2 id="bio-h">Biography</h2>
+      <p>
+        I am an AI researcher and engineer who builds and evaluates large language models and the agents built on them.
+        At <strong>Turing</strong> I lead teams that find where frontier models fail, and I build simulated environments,
+        stateful mock APIs, in which a model learns to plan and carry out multi-step tool actions. At
+        <strong>Codematic</strong> I put LLM and agent workflows into production.
+      </p>
+      <p>
+        My research began in medical imaging, with fair and efficient diagnosis models presented at the WiML Workshop at
+        NeurIPS 2024. It has since moved to language technology for African languages: I am collaborating on a benchmark
+        that tests whether models can call functions correctly from requests in Yoruba, Hausa and Igbo.
+      </p>
+      <p>
+        Next, I want to study how autonomous agents reason about the <em>knowledge, beliefs and intentions</em> of other
+        agents, so that mixed teams of symbolic and learned agents can coordinate reliably under uncertainty.
+      </p>
+      <div class="callout" role="note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+        <span><strong>I am applying for PhD programmes starting in 2027</strong> in epistemic planning, multi-agent
+        systems and the reliability of LLM agents. If our interests overlap, <a href="#contact">I would be glad to hear from you</a>.</span>
+      </div>
+
+      <div class="two-col">
+        <div>
+          <h3 class="mini-h">Interests</h3>
+          <ul class="interests">
+            <li>Epistemic planning and reasoning about knowledge and belief</li>
+            <li>Multi-agent systems and coordination</li>
+            <li>Knowledge representation and reasoning</li>
+            <li>Decision-making under uncertainty</li>
+            <li>Neuro-symbolic AI</li>
+            <li>Evaluation and reliability of LLM agents</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mini-h">Education</h3>
+          <ul class="edu">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+              <div><b>MSc Financial Engineering</b><span>WorldQuant University, 2025 – present &middot; average 88%</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+              <div><b>MBA, Artificial Intelligence</b><span>Nexford University, 2026 &middot; CGPA 4.00/4.00</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+              <div><b>BTech Information Systems</b><span>Federal University of Technology, Akure, 2024 &middot; CGPA 4.83/5.00, best graduating student</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Research ===================== -->
+  <section class="block" id="research" aria-labelledby="research-h">
+    <div class="sec-head"><h2 id="research-h">Research focus</h2></div>
+    <div class="focus">
+      <article class="next">
+        <span class="pill">Where I am heading</span>
+        <h3>Agents that reason about other agents</h3>
+        <p>Epistemic planning for teams of symbolic and learned agents: how an agent should act on what it believes
+        others know, so that coordination holds up under uncertainty and partial information.</p>
+      </article>
+      <article>
+        <span class="pill">Turing, 2024 – present</span>
+        <h3>Evaluating and training LLM agents</h3>
+        <p>Simulated environments with stateful mock APIs, scenario and regression tests, and trajectory reviews that
+        separate environment faults from model failures. My automated evaluator kept 90% agreement with expert raters
+        while cutting review costs by 60%.</p>
+      </article>
+      <article>
+        <span class="pill">2026 – present</span>
+        <h3>Language technology for African languages</h3>
+        <p>Benchmarking function calling in Yoruba, Hausa and Igbo against matched English controls, and fine-tuning a
+        sub-1B model for news topics and headlines in four Nigerian languages.</p>
+      </article>
+      <article>
+        <span class="pill">FUTA, 2022 – 2024</span>
+        <h3>Efficient, fair medical machine learning</h3>
+        <p>Quantized CNNs for breast cancer diagnosis with an Accuracy Disparity Ratio to measure gaps between groups,
+        and stacked ensembles for lung disease from 11,985 chest X-rays.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== News ===================== -->
+  <section class="block" id="news" aria-labelledby="news-h">
+    <div class="sec-head"><h2 id="news-h">News</h2></div>
+    <ul class="news">
+      <li><time datetime="2026-11">Nov 2026</time><span>Released the code and write-up for my DSN AI Bootcamp model, <a href="https://github.com/Olamilekan002/dsn-2026-nigerian-news-llm">news topics and headlines in four Nigerian languages</a>.</span></li>
+      <li><time datetime="2026-10">Oct 2026</time><span>Joined <em>Can African Language Models Act?</em>, a function-calling benchmark led by Ayodeji Lana, as a research collaborator in the MLC focus group on Reinforcement Learning and Agentic Systems.</span></li>
+      <li><time datetime="2026-09">Sep 2026</time><span>Competed in the DSN AI Bootcamp 2026 LLM / Agent track, scoring 0.621 on the final private leaderboard.</span></li>
+      <li><time datetime="2026-09">Sep 2026</time><span>Became a Google Cloud Certified Professional Machine Learning Engineer.</span></li>
+      <li><time datetime="2026-07">Jul 2026</time><span>Joined <strong>Codematic</strong> as a Senior AI Engineer.</span></li>
+      <li><time datetime="2026-03">Mar 2026</time><span>Completed an MBA specialising in Artificial Intelligence at Nexford University, with a CGPA of 4.00/4.00.</span></li>
+    </ul>
+    <details class="more">
+      <summary><span class="closed">Show older news</span><span class="open">Hide older news</span></summary>
+      <ul class="news">
+        <li><time datetime="2026">2026</time><span>Named one of the Top 100 Africa Future Leaders.</span></li>
+        <li><time datetime="2026">2026</time><span>Mentored more than 80 participants in Nigeria&rsquo;s 3 Million Technical Talent (3MTT) programme.</span></li>
+        <li><time datetime="2025-08">Aug 2025</time><span>Reviewed applications for the Deep Learning Indaba in Kigali, Rwanda.</span></li>
+        <li><time datetime="2025-01">Jan 2025</time><span>Started an MSc in Financial Engineering at WorldQuant University.</span></li>
+        <li><time datetime="2024-12">Dec 2024</time><span>Presented a poster on efficient and fair breast cancer diagnosis at the WiML Workshop at NeurIPS 2024.</span></li>
+        <li><time datetime="2024-10">Oct 2024</time><span>Graduated from FUTA as best graduating student in the School of Computing, after making the Dean&rsquo;s List in all 10 semesters.</span></li>
+        <li><time datetime="2024-04">Apr 2024</time><span>Joined <strong>Turing</strong>, where I now lead a pod working on LLM evaluation and agent environments.</span></li>
+      </ul>
+    </details>
+  </section>
+
+  <!-- ===================== Publications ===================== -->
+  <section class="block" id="publications" aria-labelledby="pubs-h">
+    <div class="sec-head"><h2 id="pubs-h">Publications &amp; presentations</h2></div>
+    <ul class="pubs">
+      <li>
+        <span class="badge wip">IN PROGRESS</span>
+        <div>
+          <span class="title">Can African Language Models Act? A Multi-Model Benchmark on Low-Resource Function Calling</span>
+          <span class="authors">A. Lana and <b>O. M. Omotosho</b></span>
+          <span class="venue">200 single-call tasks in Yoruba, Hausa, Igbo and matched English; study design and evaluation under way</span>
+        </div>
+      </li>
+      <li>
+        <span class="badge">POSTER</span>
+        <div>
+          <span class="title">Towards Real-Time Breast Cancer Diagnosis: Enhancing CNN Model Efficiency and Fairness</span>
+          <span class="authors">S. P. Akinrinwa and <b>O. M. Omotosho</b></span>
+          <span class="venue">Women in Machine Learning (WiML) Workshop at NeurIPS 2024</span>
+        </div>
+      </li>
+      <li>
+        <span class="badge">THESIS</span>
+        <div>
+          <span class="title">Ensemble Machine Learning Classification Algorithms for Diagnosis and Prediction of Lung Diseases</span>
+          <span class="authors"><b>O. M. Omotosho</b></span>
+          <span class="venue">BTech thesis, Federal University of Technology, Akure, 2024</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===================== Experience ===================== -->
+  <section class="block" id="experience" aria-labelledby="exp-h">
+    <div class="sec-head"><h2 id="exp-h">Experience</h2></div>
+
+    <h3 class="group-h">Research</h3>
+    <ol class="timeline">
+      <li class="current">
+        <div class="job-top"><h3>Research Collaborator</h3><span class="when">Oct 2026 – present</span></div>
+        <div class="org">MLC research focus group on Reinforcement Learning and Agentic Systems &middot; Remote</div>
+        <ul>
+          <li>Building a benchmark of how reliably African-language LLMs choose the right function and construct its arguments from Yoruba, Hausa and Igbo requests.</li>
+          <li>Uses 200 tasks from the Berkeley Function Calling Leaderboard, each in three languages plus matched English (800 inputs per model), with tool schemas held fixed.</li>
+          <li>Scores structural validity, function selection, argument grounding and full-call correctness separately, to tell comprehension failures apart from interface mismatches.</li>
+        </ul>
+      </li>
+      <li>
+        <div class="job-top"><h3>Assistant AI Researcher</h3><span class="when">Jan 2022 – Dec 2024</span></div>
+        <div class="org">Federal University of Technology, Akure</div>
+        <ul>
+          <li>Co-authored and co-presented a poster on efficient, fair CNNs for breast cancer diagnosis at WiML, NeurIPS 2024.</li>
+          <li>Built medical vision models reaching 93% accuracy in COVID-19 detection and F1 above 0.9 for chest X-ray disease classification.</li>
+          <li>Contributed to a text-extraction model that reads serial numbers on currency notes.</li>
+        </ul>
+      </li>
+      <li>
+        <div class="job-top"><h3>Undergraduate thesis</h3><span class="when">Completed Oct 2024</span></div>
+        <div class="org">Federal University of Technology, Akure</div>
+        <ul>
+          <li>Compared CNN, Random Forest and XGBoost on 11,985 chest X-rays (COVID-19, tuberculosis, pneumonia, normal), then stacked them with a logistic-regression meta-learner for 96.77% accuracy.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h3 class="group-h">Industry</h3>
+    <ol class="timeline">
+      <li class="current">
+        <div class="job-top"><h3>Senior AI Engineer</h3><span class="when">Jul 2026 – present</span></div>
+        <div class="org">Codematic &middot; Nigeria</div>
+        <ul>
+          <li>Design and build AI applications that combine language models, machine learning and software engineering.</li>
+          <li>Develop LLM and agent workflows for production systems.</li>
+        </ul>
+      </li>
+      <li class="current">
+        <div class="job-top"><h3>Pod Lead &amp; Senior Data Scientist</h3><span class="when">Apr 2024 – present</span></div>
+        <div class="org">Turing &middot; Remote</div>
+        <ul>
+          <li>Lead teams of 3–6 data scientists in structured error analysis and comparative evaluation of large language models.</li>
+          <li>Build RL environments for LLM agents: stateful mock APIs of real services where a frontier model learns multi-step tool use, plus the scenario and regression tests behind them.</li>
+          <li>Built an automated evaluator that cut human review costs by 60% at 90% agreement with expert raters.</li>
+          <li>Design supervised fine-tuning workflows that target hallucination, inconsistent reasoning and instruction-following failures, and contribute to RLHF data curation.</li>
+        </ul>
+      </li>
+      <li>
+        <div class="job-top"><h3>Data Scientist</h3><span class="when">Jun 2023 – Aug 2024</span></div>
+        <div class="org">VAMP FI &middot; Hybrid</div>
+        <ul>
+          <li>Built a LangChain and OpenAI conversational agent that answers operational questions from live dashboards.</li>
+          <li>Developed a prescriptive model for facility optimisation that cut operational time by 20%.</li>
+        </ul>
+      </li>
+      <li>
+        <div class="job-top"><h3>Data Science Trainer</h3><span class="when">Jan 2024 – Apr 2024</span></div>
+        <div class="org">Analytics Intelligence &middot; Hybrid</div>
+        <ul><li>Taught Python, machine learning and deep learning through projects in computer vision, NLP and prediction.</li></ul>
+      </li>
+      <li>
+        <div class="job-top"><h3>Data Analyst</h3><span class="when">Jul 2022 – Aug 2024</span></div>
+        <div class="org">Filmo Real Estate &middot; Remote</div>
+        <ul><li>Built Power BI dashboards that improved SLA adherence by 30%, automated reporting to halve manual work, and cut system load times by 87%.</li></ul>
+      </li>
+      <li>
+        <div class="job-top"><h3>Data Analyst</h3><span class="when">Oct 2020 – May 2022</span></div>
+        <div class="org">Quicktest &middot; Remote</div>
+        <ul><li>Built an automated personalised messaging system in Python that raised customer retention by 55%.</li></ul>
+      </li>
+      <li class="current">
+        <div class="job-top"><h3>Freelance AI/ML Engineer</h3><span class="when">Jan 2020 – present</span></div>
+        <div class="org">Independent &middot; Remote</div>
+        <ul><li>Build LLM applications and ML solutions in NLP, computer vision and predictive modelling; compete on Kaggle and Zindi.</li></ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ===================== Projects ===================== -->
+  <section class="block" id="projects" aria-labelledby="proj-h">
+    <div class="sec-head"><h2 id="proj-h">Selected projects</h2></div>
+    <div class="projects">
+      <article class="project">
+        <div class="ctx">DSN AI Bootcamp 2026 &middot; Open source</div>
+        <h3>News topics and headlines in four Nigerian languages</h3>
+        <p>A 659M-parameter AfriTeVa model, fully fine-tuned on one free T4 GPU, that labels Hausa, Igbo, Yoruba and Pidgin articles and writes headlines in the same language.</p>
+        <p class="result">0.621 on the final private leaderboard.</p>
+        <div class="stack"><span>PyTorch</span><span>Transformers</span><span>T5</span><span>Kaggle</span></div>
+        <a class="go" href="https://github.com/Olamilekan002/dsn-2026-nigerian-news-llm">Code and write-up &rarr;</a>
+      </article>
+      <article class="project">
+        <div class="ctx">Open source</div>
+        <h3>Offline LLM learning platform</h3>
+        <p>Curriculum-grounded lesson plans from Gemma 3 1B, using curriculum documents and teacher profiles, with student intent classification and hallucination guardrails.</p>
+        <div class="stack"><span>FastAPI</span><span>Ollama</span><span>Docker</span><span>Cloud Run</span></div>
+        <a class="go" href="https://github.com/Olamilekan002/offline-llm-learning-platform">Code on GitHub &rarr;</a>
+      </article>
+      <article class="project">
+        <div class="ctx">Turing &middot; code is private</div>
+        <h3>Automated LLM evaluator</h3>
+        <p>Grades model outputs in place of a human first pass, so reviewers spend their time on the hard cases.</p>
+        <p class="result">60% lower review cost at 90% expert agreement.</p>
+        <div class="stack"><span>Python</span><span>LLM-as-judge</span></div>
+      </article>
+      <article class="project">
+        <div class="ctx">Open source</div>
+        <h3>Build your own RAG system</h3>
+        <p>An interactive retrieval-augmented generation app covering document ingestion, vector search, semantic retrieval and grounded conversational answers.</p>
+        <div class="stack"><span>Streamlit</span><span>Vector search</span><span>Gemini</span><span>Ollama</span></div>
+      </article>
+      <article class="project">
+        <div class="ctx">VAMP FI</div>
+        <h3>Real-time analytics agent</h3>
+        <p>An LLM agent that turns operational data into answers and automated insights for the people running facilities.</p>
+        <div class="stack"><span>LangChain</span><span>OpenAI API</span></div>
+      </article>
+      <article class="project">
+        <div class="ctx">UmojaHack Africa 2022</div>
+        <h3>Air-quality sensor fault classifier</h3>
+        <p>A Random Forest with time-series features over more than 290,000 sensor records.</p>
+        <p class="result">93% accuracy under stratified k-fold validation.</p>
+        <div class="stack"><span>scikit-learn</span><span>Time series</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== Awards & Service ===================== -->
+  <section class="block" id="service" aria-labelledby="svc-h">
+    <div class="sec-head"><h2 id="svc-h">Awards &amp; service</h2></div>
+    <div class="split">
+      <div>
+        <h3 class="mini-h">Awards and scholarships</h3>
+        <ul class="ticks">
+          <li><span class="yr">2026</span><span>Top 100 Africa Future Leaders</span></li>
+          <li><span class="yr">2024</span><span>Best Graduating Student, School of Computing, FUTA</span></li>
+          <li><span class="yr">2024</span><span>Best Graduating Student, Department of Information Systems, FUTA</span></li>
+          <li><span class="yr">2019–24</span><span>Dean&rsquo;s List in 10 consecutive semesters</span></li>
+          <li><span class="yr">2020</span><span>NNPC/Chevron JV National University Scholarship</span></li>
+          <li><span class="yr">&mdash;</span><span>Five undergraduate scholarships in total, including the FSB scholarship</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="mini-h">Academic service and leadership</h3>
+        <ul class="ticks">
+          <li><span class="yr">2022–25</span><span>Application reviewer and delegate, Deep Learning Indaba (Kigali 2025)</span></li>
+          <li><span class="yr">2026</span><span>Mentor, 3MTT programme (80+ mentees); Young Data Professionals; Ingressive For Good</span></li>
+          <li><span class="yr">2023–</span><span>Zindi Ambassador, Zindi Africa</span></li>
+          <li><span class="yr">2023–25</span><span>Community Lead, Data Science Nigeria FUTA chapter, which grew from 100 to 300 members</span></li>
+          <li><span class="yr">2021–24</span><span>Host and Publicity Lead, Microsoft Learn Student Ambassadors</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Skills ===================== -->
+  <section class="block" id="skills" aria-labelledby="skills-h">
+    <div class="sec-head"><h2 id="skills-h">Skills &amp; certifications</h2></div>
+    <dl class="skills">
+      <dt>LLMs and agents</dt>
+      <dd><span class="chip">Agent workflows &amp; tool use</span><span class="chip">Function calling</span><span class="chip">RL environments</span><span class="chip">RAG</span><span class="chip">LangChain</span><span class="chip">OpenAI API</span></dd>
+      <dt>Training and evaluation</dt>
+      <dd><span class="chip">Supervised fine-tuning</span><span class="chip">RLHF workflows</span><span class="chip">Benchmarking</span><span class="chip">Automated evaluation</span><span class="chip">Error analysis</span></dd>
+      <dt>Machine learning</dt>
+      <dd><span class="chip">PyTorch</span><span class="chip">TensorFlow / Keras</span><span class="chip">Hugging Face</span><span class="chip">scikit-learn</span><span class="chip">CNNs</span><span class="chip">Ensembles</span></dd>
+      <dt>Engineering</dt>
+      <dd><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">FastAPI</span><span class="chip">Docker</span><span class="chip">Git</span><span class="chip">Google Cloud</span><span class="chip">Azure</span><span class="chip">AWS</span><span class="chip">LaTeX</span></dd>
+    </dl>
+    <details class="more">
+      <summary><span class="closed">Show all 14 certifications</span><span class="open">Hide certifications</span></summary>
+      <ul class="certs">
+        <li>Google Cloud Professional Machine Learning Engineer (2026)</li>
+        <li>Google Cloud Generative AI Leader (2026)</li>
+        <li>Google Cloud Partner Specialist: Gemini Enterprise Agent Development (2026)</li>
+        <li>Microsoft Azure AI Engineer Associate (2025)</li>
+        <li>Microsoft Azure Data Scientist Associate (2024)</li>
+        <li>Microsoft Power BI Data Analyst Associate (2023)</li>
+        <li>Microsoft Azure AI Fundamentals (2023)</li>
+        <li>Microsoft Azure Data Fundamentals (2022)</li>
+        <li>Udacity Nanodegree: Data Analyst (2022)</li>
+        <li>Google Data Analytics Professional Certificate (2022)</li>
+        <li>Tekedia Institute: Advanced Diploma in Business Administration (2022)</li>
+        <li>DeepLearning.AI: Convolutional Neural Networks (2021)</li>
+        <li>DeepLearning.AI: Improving Deep Neural Networks (2020)</li>
+        <li>DeepLearning.AI: Neural Networks and Deep Learning (2020)</li>
+      </ul>
+    </details>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="motif" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <h2>Get in touch</h2>
+      <p>Email: <a class="js-email" href="#contact" data-u="omotoshomatthew73" data-d="gmail.com">omotoshomatthew73 [at] gmail [dot] com</a></p>
+      <p>I am glad to talk about PhD research, LLM evaluation or agent environments. If you are starting out in data science, write to me too: I mentor through 3MTT, Young Data Professionals and Zindi.</p>
+    </div>
+    <div>
+      <p><a href="assets/Olamilekan-Omotosho-CV.pdf">Full CV (PDF)</a> &middot; <a href="https://github.com/Olamilekan002">GitHub</a> &middot; <a href="https://linkedin.com/in/olamilekan-omotosho">LinkedIn</a></p>
+      <p class="small">Last updated November 2026.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  /* Email links: build the address in the browser so it never appears whole in the HTML source. */
+  document.querySelectorAll(".js-email").forEach(function (link) {
+    var address = link.dataset.u + "@" + link.dataset.d;
+    link.href = "mailto:" + address;
+    if (!link.hasAttribute("data-icon")) link.textContent = address;
+  });
+
+  /* Theme toggle: flips between light and dark and remembers the choice for this browser. */
+  (function () {
+    var root = document.documentElement;
+    var button = document.getElementById("themeToggle");
+    var media = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+    function current() {
+      return root.dataset.theme || (media && media.matches ? "dark" : "light");
+    }
+    function label() {
+      button.setAttribute("aria-label", current() === "dark" ? "Switch to light theme" : "Switch to dark theme");
+    }
+
+    button.addEventListener("click", function () {
+      var next = current() === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      try { localStorage.setItem("theme", next); } catch (e) { /* not saved; still switches for this visit */ }
+      label();
+    });
+    if (media && media.addEventListener) media.addEventListener("change", label);
+    label();
+  })();
+</script>
+</body>
+</html>
