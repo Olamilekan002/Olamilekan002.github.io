@@ -5,10 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Olamilekan Omotosho</title>
 <meta name="description" content="Olamilekan Omotosho is an AI researcher and engineer who builds and evaluates LLM agents, works on language technology for African languages, and is applying for PhD programmes starting in 2027.">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
 <meta name="author" content="Olamilekan Omotosho">
-<meta name="theme-color" content="#fbf8f3" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0e1120" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fbf8f3">
 <!-- Site address: change https://olamilekan002.github.io/ below if the site is hosted elsewhere. -->
 <link rel="canonical" href="https://olamilekan002.github.io/">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -85,23 +84,9 @@
     --gold: #a8741a;
     --shadow: 0 1px 2px rgba(27, 32, 48, .06), 0 8px 24px rgba(27, 32, 48, .06);
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0e1120;
-      --surface: #151a2d;
-      --surface-2: #1b2137;
-      --ink: #ebe7df;
-      --muted: #a2a8bb;
-      --line: #272d47;
-      --accent: #a7b2ff;
-      --accent-soft: #20274a;
-      --garnet: #f19aa6;
-      --garnet-soft: #3a1e2a;
-      --gold: #e6c06e;
-      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
-    }
-  }
+  /* Light is the default for every visitor; dark applies only after they press the toggle. */
   :root[data-theme="dark"] {
+    color-scheme: dark;
     --bg: #0e1120;
     --surface: #151a2d;
     --surface-2: #1b2137;
@@ -161,10 +146,6 @@
   .theme-toggle .moon { display: none; }
   :root[data-theme="dark"] .theme-toggle .sun { display: none; }
   :root[data-theme="dark"] .theme-toggle .moon { display: block; }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .theme-toggle .sun { display: none; }
-    :root:not([data-theme="light"]) .theme-toggle .moon { display: block; }
-  }
 
   /* ---------- About ---------- */
   .about { display: grid; grid-template-columns: 300px 1fr; gap: 48px; padding: 56px 0 24px; }
@@ -743,10 +724,8 @@
   (function () {
     var root = document.documentElement;
     var button = document.getElementById("themeToggle");
-    var media = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
-
     function current() {
-      return root.dataset.theme || (media && media.matches ? "dark" : "light");
+      return root.dataset.theme === "dark" ? "dark" : "light";
     }
     function label() {
       button.setAttribute("aria-label", current() === "dark" ? "Switch to light theme" : "Switch to dark theme");
@@ -758,7 +737,6 @@
       try { localStorage.setItem("theme", next); } catch (e) { /* not saved; still switches for this visit */ }
       label();
     });
-    if (media && media.addEventListener) media.addEventListener("change", label);
     label();
   })();
 </script>
